@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>training layout</title>
-    <link rel="stylesheet" href="root.css" />
+    <link rel="stylesheet" href="/css/root.css" />
   </head>
   <body>
     <!-- Обертка контента -->
@@ -14,9 +14,74 @@
         <nav class="header__nav">
           <div class="header__group-first">
             <button class="burger"></button>
+            <div class="divider-one"></div>
+            <a href="#"><img src="/img/Group.svg" alt="логотип" /></a>
           </div>
+          <div class="header__group-second">
+            <div class="header__group-second-one">
+              <button class="call"></button>
+              <button class="chat"></button>
+              <button class="profile"></button>    
+            </div>
+            <div class="header__group-second-two">
+              <div class="divider-two"></div>
+              <button class="repair"></button>
+              <button class="checkstatus"></button>
+            </div>
         </nav>
       </header>
+      <!-- main -->
+      <main class="main__container">
+        <!-- Section #1 -->
+        <section class="main__block-first">
+          <div class="main__block-first-title">
+            <h1 class="parttitle">Услуги и сервисы</h1>
+          </div>
+          <div class="main__block-first-buttons">
+            <button type="button" class="repair-main">
+              <span class="icon-repair-main"></span>
+              Оставить заявку
+            </button>
+            <button type="button" class="checkstatus-main">
+              <span class="icon-checkstatus-main"></span>
+              Статус ремонта
+            </button>
+          </div>
+        </section>
+         <!-- Section #2 -->
+        <section class="main__block-second">
+          <button class="button__repair-brand">Ремонтируемые бренды</button>
+          <button class="button_repair-divices">Ремонтируемые устройства</button>
+          <button class="button__prise">Цена на услуги</button>
+          <button class="button__addres-service">
+            Адреса сервисных центров
+          </button>
+          <button class="button__special-prise">Специальная цена</button>
+          <button class="button__reviews">Отзывы</button>
+        </section>
+         <!-- Section #3 -->
+        <section class="main__block-third">
+          <div class="main__block-third-text">
+              <p class="text-one">
+                Мы являемся авторизованным сервисным центром по ремонту техники
+                Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
+                официальной гарантией производителя.
+              </p>
+              <p class="text-two">
+                Мы успешно работаем с 1992 года и заслужили репутацию надежного
+                партнера, что подтверждает большое количество постоянных
+                клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям
+                и, в свою очередь, советуют нас родным и близким.
+              </p>
+            </div>
+          <div class="main__block-third-read-more">
+                <p class="read-more">Читать далее</p>
+          </div>
+          <div class="main__block-third-image">
+            <img class="image-CPS" src="/img/CPS.svg" alt="логотип" />
+          </div>
+        </section>
+      </main>
     </div>
   </body>
 </html>
