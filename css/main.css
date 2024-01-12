@@ -37,8 +37,6 @@
 }
 
 .icon-repair-main {
-  display: inline-block;
-  vertical-align: middle;
   width: 40px;
   height: 40px;
   right: 0;
@@ -58,8 +56,6 @@
   background-color: #f8f8f8;
 }
 .icon-checkstatus-main {
-  display: inline-block;
-  vertical-align: middle;
   width: 40px;
   height: 40px;
   right: 0;
