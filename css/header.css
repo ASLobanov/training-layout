@@ -40,4 +40,28 @@
     padding-left: 1rem;
     justify-content: space-between;
   }
+  .header {
+    min-width: 50.57vw;
+  }
+}
+
+@media (min-width: 768px) {
+  .header__nav {
+    justify-content: space-between;
+  }
+  .header__group-second-one {
+    display: flex;
+  }
+  .divider-one {
+    display: flex;
+  }
+  .header__nav {
+    padding-left: 1.5rem;
+  }
+}
+
+@media (min-width: 1119px) {
+  .header {
+    display: none;
+  }
 }
