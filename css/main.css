@@ -93,9 +93,6 @@
 .main__block-third {
   display: flex;
 }
-.read-more {
-  position: relative;
-}
 .read-more::before {
   position: relative;
   top: 0.3rem;
