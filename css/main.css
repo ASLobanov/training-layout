@@ -42,7 +42,7 @@
   right: 0;
   top: 0;
   position: absolute;
-  background: #f8f8f8 url("/icon/repair.svg");
+  background: #f8f8f8 url("../icon/repair.svg");
 }
 
 .checkstatus-main {
@@ -61,7 +61,7 @@
   right: 0;
   top: 0;
   position: absolute;
-  background: #f8f8f8 url("/icon/checkstatus.svg");
+  background: #f8f8f8 url("../icon/checkstatus.svg");
 }
 .main__block-second {
   display: flex;
@@ -96,7 +96,7 @@
 .read-more::before {
   position: relative;
   top: 0.3rem;
-  content: url(/icon/expand.svg);
+  content: url(../icon/expand.svg);
 }
 
 .read-more {

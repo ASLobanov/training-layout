@@ -13,7 +13,7 @@ button {
   width: 40px;
   height: 40px;
   border: none;
-  background-image: url(/icon/burger.svg);
+  background-image: url(../icon/burger.svg);
   background-color: white;
 }
 
@@ -21,7 +21,7 @@ button {
   width: 40px;
   height: 40px;
   border: none;
-  background-image: url(/icon/call.svg);
+  background-image: url(../icon/call.svg);
   background-color: white;
 }
 
@@ -29,7 +29,7 @@ button {
   width: 40px;
   height: 40px;
   border: none;
-  background-image: url(/icon/chat.svg);
+  background-image: url(../icon/chat.svg);
   background-color: white;
 }
 
@@ -37,7 +37,7 @@ button {
   width: 40px;
   height: 40px;
   border: none;
-  background-image: url(/icon/profile.svg);
+  background-image: url(../icon/profile.svg);
   background-color: white;
 }
 
@@ -45,7 +45,7 @@ button {
   width: 40px;
   height: 40px;
   border: none;
-  background-image: url(/icon/repair.svg);
+  background-image: url(../icon/repair.svg);
   background-color: white;
 }
 
@@ -53,6 +53,6 @@ button {
   width: 40px;
   height: 40px;
   border: none;
-  background-image: url(/icon/checkstatus.svg);
+  background-image: url(../icon/checkstatus.svg);
   background-color: white;
 }
