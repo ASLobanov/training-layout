@@ -78,13 +78,16 @@
   padding: 0;
   white-space: nowrap;
   column-gap: 2rem;
+  color: #7e7e82;
 }
 .main__list-item::-webkit-scrollbar {
   display: none; /* Safari and Chrome */
 }
+
+/* Стили для ссылок */
 a {
   text-decoration: none;
-  color: #7e7e82;
+  color: inherit;
 }
 
 .main__item-repair-brands {
