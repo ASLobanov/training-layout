@@ -1,5 +1,5 @@
 /* Стили для кнопок */
-button {
+.button {
   background: none;
   color: inherit;
   border: none;
@@ -7,52 +7,31 @@ button {
   font: inherit;
   cursor: pointer;
   outline: inherit;
-}
-.burger {
   display: flex;
   width: 40px;
   height: 40px;
-  border: none;
+  background-color: white;
+}
+.button--burger {
   background-image: url(../icon/burger.svg);
-  background-color: white;
 }
 
-.call {
-  width: 40px;
-  height: 40px;
-  border: none;
+.button--call {
   background-image: url(../icon/call.svg);
-  background-color: white;
 }
 
-.chat {
-  width: 40px;
-  height: 40px;
-  border: none;
+.button--chat {
   background-image: url(../icon/chat.svg);
-  background-color: white;
 }
 
-.profile {
-  width: 40px;
-  height: 40px;
-  border: none;
+.button--profile {
   background-image: url(../icon/profile.svg);
-  background-color: white;
 }
 
-.repair {
-  width: 40px;
-  height: 40px;
-  border: none;
+.button--repair {
   background-image: url(../icon/repair.svg);
-  background-color: white;
 }
 
-.checkstatus {
-  width: 40px;
-  height: 40px;
-  border: none;
+.button--checkstatus {
   background-image: url(../icon/checkstatus.svg);
-  background-color: white;
 }

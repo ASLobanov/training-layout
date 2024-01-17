@@ -224,3 +224,8 @@ a {
     padding: 0;
   }
 }
+@media (max-width: 320px) {
+  .wrapper {
+    overflow: scroll;
+  }
+}
